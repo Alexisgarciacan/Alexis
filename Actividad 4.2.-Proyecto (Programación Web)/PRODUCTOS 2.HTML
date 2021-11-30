@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+
+	<title>Mini super "Ramirez"</title>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+  <script src=”micodigo.js”></script>
+</head>
+
+<body>
+	<div class="header">
+	<h1>Mini super "Ramirez"</h1>
+		</div>
+
+	<div class="topnav">
+		<a href="INDEX.HTML">INICIO</a>
+		<a href="PRODUCTOS.html">PRODUCTOS</a>
+		<a href="PRODUCTOS 2.html">OTRO</a>
+	</div>
+
+<h2>Horario</h2>
+	<table>
+		<tr>
+		<th>Día</th>
+		<th>Hora</th>
+		</tr>
+		<tr>
+			<td>Lunes</td>
+			<td>10:00 - 22:00 hrs</td>
+		</tr>
+		<tr>
+			<td>Martes</td>
+			<td>10:00 - 22:00 hrs</td>
+		</tr>
+		<tr>
+			<td>Miércoles</td>
+			<td>10:00 - 22:00 hrs</td>
+		</tr>
+		<tr>
+			<td>Jueves</td>
+			<td>10:00 - 22:00 hrs</td>
+		</tr>
+		<tr>
+			<td>Viernes</td>
+			<td>10:00 - 22:00 hrs</td>
+		</tr>
+		<tr>
+			<td>Sábado</td>
+			<td>10:00 - 22:00 hrs</td>
+		</tr>
+		<tr>
+			<td>Domingo</td>
+			<td>10:00 - 17:00 hrs</td>
+		</tr>
+	</table>
+
+      <div class="card">
+
+</div>
+</div>
+
+<h2>GRACIAS POR VISITARNOS</h2>
+<p>¡Estamos para servirle!</p>
+
+<img src="cliente.jpg"
+alt="servivio"
+width="350"
+height="300">
+
+<div class="card">
+	<h2>CONTACTANOS</h2>
+
+	<form action="/my-handling-form-page" method="post">
+	 <ul>
+		<li>
+			<label for="name">Nombre:</label>
+			<input type="text" id="name" name="user_name">
+		</li>
+		<li>
+			<label for="mail">Correo electrónico:</label>
+			<input type="email" id="mail" name="user_mail">
+		</li>
+		<li>
+			<label for="msg">Mensaje:</label>
+			<textarea id="msg" name="user_message"></textarea>
+		</li>
+	 </ul>
+	 <li class="button">
+		<button type="submit">Envíe su mensaje</button>
+	</li>
+	</form>
+	<p>Tu opinion nos interesa</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="footer">
+<p>Derechos reservados</p>
+</div>
+<h3>Tiempo conectado</h3>
+<script>
+startday=new Date();clockStart=startday.getTime();function initStopwatch(){var myTime=new Date();return((myTime.getTime()-clockStart)/1000);}
+function getSecs(){var tSecs=Math.round(initStopwatch());var iSecs=tSecs%60;var iMins=Math.round((tSecs-30)/60);var sSecs=""+((iSecs>9)?iSecs:"0"+iSecs);var sMins=""+((iMins>9)?iMins:"0"+iMins);document.getElementById('timespent').value=sMins+":"+sSecs;window.setTimeout('getSecs()',1000);}
+window.onload = function(){
+window.setTimeout('getSecs()',1);
+}
+</script>
+</body>
+<!-- Compiled and minified Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+<!-- Minified JS library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Compiled and minified Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+<input class="timepage" size="5" id="timespent" name="timespent"><br>
+    </html>
